@@ -25,7 +25,8 @@
   "dependencies": {
     "@ember-decorators/babel-transforms": "~2.1.0",
     "ember-cli-babel": "~7.1.0",
-    "ember-cli-htmlbars": "~3.0.0"
+    "ember-cli-htmlbars": "~3.0.0",
+    "plyr": "~3.4.3"
   },
   "devDependencies": {
     "@types/ember": "~2.8.32",

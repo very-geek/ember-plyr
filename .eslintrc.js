@@ -16,6 +16,9 @@ module.exports = {
   env: {
     browser: true
   },
+  globals: {
+    Plyr: false
+  },
   rules: {
   },
   overrides: [
