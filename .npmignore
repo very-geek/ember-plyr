@@ -1,3 +1,4 @@
+/.vscode
 /bower_components
 /config/ember-try.js
 /dist
@@ -7,8 +8,11 @@
 .bowerrc
 .editorconfig
 .ember-cli
+.eslintignore
 .eslintrc.js
 .gitignore
+.prettierignore
+.prettierrc.js
 .watchmanconfig
 .travis.yml
 bower.json
