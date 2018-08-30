@@ -1,0 +1,11 @@
+{{#docs-demo as |demo|}}
+  {{#demo.example name="demo-1.hbs"}}
+    <MediaPlayer @cover="assets/video.png" as |Media|>
+      <Media.source @src="assets/video.mp4"/>
+      <Media.source @src="assets/video.ogv"/>
+      <Media.source @src="assets/video.webm"/>
+      <a href="exmaple.mp4" download>下载视频</a>
+    </MediaPlayer>
+  {{/demo.example}}
+  {{demo.snippet "demo-1.hbs"}}
+{{/docs-demo}}

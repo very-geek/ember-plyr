@@ -4,6 +4,7 @@
     "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
     "baseUrl": ".",
+    "esModuleInterop": true,
     "experimentalDecorators": true,
     "inlineSourceMap": true,
     "inlineSources": true,
@@ -18,32 +19,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
-      "@ember-decorators/*": [
-        "node_modules/@ember-decorators/*"
-      ],
-      "dummy/tests/*": [
-        "tests/*"
-      ],
-      "dummy/*": [
-        "tests/dummy/app/*",
-        "app/*"
-      ],
-      "ember-plyr": [
-        "addon"
-      ],
-      "ember-plyr/*": [
-        "addon/*"
-      ],
-      "ember-plyr/test-support": [
-        "addon-test-support"
-      ],
-      "ember-plyr/test-support/*": [
-        "addon-test-support/*"
-      ],
-      "*": [
-        "types/*"
-      ]
+      "dummy/tests/*": ["tests/*"],
+      "dummy/*": ["tests/dummy/app/*", "app/*"],
+      "@very-geek/ember-plyr": ["addon"],
+      "@very-geek/ember-plyr/*": ["addon/*"],
+      "@very-geek/ember-plyr/test-support": ["addon-test-support"],
+      "@very-geek/ember-plyr/test-support/*": ["addon-test-support/*"],
+      "*": ["types/*"]
     },
+    "pretty": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "target": "es2017"

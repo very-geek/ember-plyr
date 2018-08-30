@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-plyr'
+  name: '@very-geek/ember-plyr'
 };
