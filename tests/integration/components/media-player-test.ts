@@ -3,9 +3,15 @@ import hbs from 'htmlbars-inline-precompile';
 import { suite, test } from 'qunit-decorators';
 
 import { render } from '@ember/test-helpers';
+import { Plyr } from '@very-geek/ember-plyr';
 
 @suite('Integration | Component | media-player')
 export class MediaPlayerComponentTest extends EmberRenderingTest {
+
+  @test('re-exports window.Plyr')
+  reExport(assert: Assert) {
+    assert.deepEqual(Plyr, window.Plyr);
+  }
 
   @test('renders basic dom structures')
   async basicStructure(assert: Assert) {

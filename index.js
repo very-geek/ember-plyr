@@ -5,7 +5,7 @@ module.exports = {
   name: '@very-geek/ember-plyr',
 
   isDevelopingAddon() {
-    return !this.app.isProduction;
+    return 'production' !== process.env.EMBER_ENV;
   },
 
   options: {
